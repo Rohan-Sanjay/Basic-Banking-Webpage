@@ -1,0 +1,253 @@
+.container-fluid {
+    padding: 7% 15% 0;
+}
+
+.body {
+    text-align: center;
+    font-family: "Cambria";
+}
+
+
+/* TitleSection */
+
+.big-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Cambria-Bold";
+}
+
+
+
+.dropdown_menu ul
+{
+    display: block;
+    padding: 10px;
+}
+
+.collapse navbar-collapse ul li a:hover
+{
+    color: var(--color-primary) ;
+}
+
+.dropdown_menu{
+    display: none;
+}
+.container
+{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1.1fr 1fr fr;
+    column-gap: 5px;
+
+
+}
+
+img {
+    margin-left: 45%;
+    max-width: 100%;
+    max-height:100%;
+  }
+.center {
+  display: block;
+   margin-right:50%;
+  
+}
+
+.login
+{
+    margin-left: 37%;
+    
+ 
+}
+
+.input-box input
+{
+    width: 40% ;
+}
+
+.remember-forgot
+{
+    font-size: .8.2em;
+    color: #162938;
+    font-weight: 500;
+    display: flex;
+    
+}
+
+.remember-forgot label input {
+    accent-color: #162938;
+    margin-right: 3px;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+
+.btn{
+    width: 35%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.Login-register{
+
+    font-size: .8.2em;
+    color: #162938;
+    font-weight: 500;
+    display: flex;
+}
+
+.br { 
+    display: block; 
+    margin-bottom: 0em; 
+} 
+
+
+#title {
+    background-color: lightcoral;
+    color: rgb(8, 4, 4);
+    padding-bottom: 7%;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* navigationsection */
+
+.navbar-heading {
+    font-size: 1.5rem;
+    font-family: "Times New Roman";
+    padding: 0 0;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+#navbarNav ul li:hover .dropdown_menu
+{
+    display: block;
+    position: absolute;
+    left: 77%;
+    background-color: var(--color-black);
+}
+
+.nav-item {
+    color: #fff;
+    padding: 0 18px;
+}
+
+
+
+
+.subnav-content
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+}
+
+.description {
+    font-size: 2.5rem;
+    font-family: "Cambria";
+    text-align: left;
+    padding-bottom: 7%;
+}
+
+.m-img {
+   margin-left: 50%;
+   height: 100%; 
+   width: 40%
+    
+}
+
+
+/* testimonialsection */
+
+#testimonials {
+    text-align: center;
+    z-index: 1;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    padding-bottom: 7%;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 50%;
+}
+
+#press {
+    padding: 100px color white;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 15px 10px;
+}
+
+
+/* footerSection */
+
+#footer {
+    background-color: lightcoral;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+/* Customer-service */
+
+
+/*feature-box section*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #4B0082;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #4B0082;
+}
